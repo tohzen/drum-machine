@@ -70,3 +70,31 @@ body {
     transform-origin: bottom center;
     animation: tick 1200ms ease-in-out infinite;
 }
+
+.box {
+    border: 1px solid black;
+}
+
+.checks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 55px;
+
+    
+    
+}
+.check {
+    display:flex;
+    margin-right: 15px;
+}
+#numberContainer {
+    display: flex;
+    justify-content: inherit;
+    flex-direction: row;
+    width: 90px;
+    margin:15;
+    
+    
+}
